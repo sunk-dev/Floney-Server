@@ -12,6 +12,7 @@ import static com.floney.floney.user.entity.QSignoutReason.signoutReason;
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
 public class SignoutReasonCustomRepositoryImpl implements SignoutReasonCustomRepository {
+    //
 
     private final JPAQueryFactory jpaQueryFactory;
 
